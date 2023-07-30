@@ -495,6 +495,23 @@
     )
   )
 
+  (sheet (at 90.17 64.77) (size 20.32 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 113 255 79 1.0000))
+    (uuid 1680b5ee-aa42-4fdf-9b7e-2b7396a922a0)
+    (property "Sheetname" "FPGA2" (at 90.17 64.0584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "FPGA2.kicad_sch" (at 90.17 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "karabas-go"
+        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "4"))
+      )
+    )
+  )
+
   (sheet (at 90.17 100.33) (size 20.32 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 136 114 255 1.0000))
@@ -507,7 +524,7 @@
     )
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "7"))
+        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "10"))
       )
     )
   )
@@ -524,7 +541,7 @@
     )
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "10"))
+        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "11"))
       )
     )
   )
@@ -541,7 +558,7 @@
     )
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "4"))
+        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "5"))
       )
     )
   )
@@ -626,7 +643,7 @@
     )
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "6"))
+        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "7"))
       )
     )
   )
@@ -643,24 +660,24 @@
     )
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "11"))
+        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "12"))
       )
     )
   )
 
-  (sheet (at 90.17 64.77) (size 20.32 7.62) (fields_autoplaced)
+  (sheet (at 90.17 132.08) (size 20.32 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 255 34 240 1.0000))
     (uuid e0b308ed-195d-4a8f-a156-7440239b6813)
-    (property "Sheetname" "FDC" (at 90.17 64.0584 0)
+    (property "Sheetname" "FDC" (at 90.17 131.3684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "fdc.kicad_sch" (at 90.17 72.9746 0)
+    (property "Sheetfile" "fdc.kicad_sch" (at 90.17 140.2846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "5"))
+        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "6"))
       )
     )
   )

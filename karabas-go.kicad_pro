@@ -508,6 +508,10 @@
       "FPGA"
     ],
     [
+      "1680b5ee-aa42-4fdf-9b7e-2b7396a922a0",
+      "FPGA2"
+    ],
+    [
       "782637cb-68ef-4840-a9dd-845fcdec95af",
       "CPU, ZX BUS"
     ],
@@ -520,16 +524,16 @@
       "CF"
     ],
     [
-      "34157a6c-fe5b-4b27-a58b-efdaac9599d0",
-      "Tape, Sound, Wi-Fi"
-    ],
-    [
       "81b893ec-ee9d-4a37-a143-1ac4f6fd0d4a",
       "Memory"
     ],
     [
       "ba614d64-5a02-4c7a-993a-280e504b1e08",
       "VGA"
+    ],
+    [
+      "34157a6c-fe5b-4b27-a58b-efdaac9599d0",
+      "Tape, Sound, Wi-Fi"
     ],
     [
       "6acec598-8d2b-4854-afef-154e7cc2feca",
