@@ -1325,9 +1325,6 @@
     (pin "1" (uuid 2f701dc6-e1e5-4e16-bdd8-d06f927cc545))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/6acec598-8d2b-4854-afef-154e7cc2feca"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/ba614d64-5a02-4c7a-993a-280e504b1e08"
           (reference "#PWR062") (unit 1)
         )
