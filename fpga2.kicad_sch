@@ -2021,7 +2021,7 @@
     (property "Value" "10k" (at 219.71 120.65 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 220.472 121.92 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 220.472 121.92 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 222.25 121.92 0)
@@ -2035,7 +2035,7 @@
           (reference "R?") (unit 1)
         )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "R?") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2361,7 +2361,7 @@
     (property "Value" "10k" (at 262.89 120.65 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 263.652 121.92 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 263.652 121.92 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 265.43 121.92 0)
@@ -2375,7 +2375,7 @@
           (reference "R?") (unit 1)
         )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "R?") (unit 1)
+          (reference "R12") (unit 1)
         )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/8156360b-2e6b-4180-bc5a-5f304755f359"
           (reference "R?") (unit 1)
@@ -2766,7 +2766,7 @@
     (property "Value" "27" (at 204.47 85.9536 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 204.47 90.678 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 204.47 90.678 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.47 88.9 0)
@@ -2780,7 +2780,7 @@
           (reference "R?") (unit 1)
         )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "R?") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2809,7 +2809,7 @@
           (reference "JP?") (unit 1)
         )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "JP?") (unit 1)
+          (reference "JP1") (unit 1)
         )
       )
     )
@@ -2933,7 +2933,7 @@
           (reference "J?") (unit 1)
         )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "J?") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -3055,7 +3055,7 @@
           (reference "U?") (unit 1)
         )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "U?") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -3098,7 +3098,7 @@
     (property "Value" "10k" (at 262.89 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 263.652 43.18 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 263.652 43.18 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 265.43 43.18 0)
@@ -3112,7 +3112,7 @@
           (reference "R?") (unit 1)
         )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "R?") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -3143,7 +3143,7 @@
           (reference "X?") (unit 1)
         )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "X?") (unit 1)
+          (reference "X1") (unit 1)
         )
       )
     )

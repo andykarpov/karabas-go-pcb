@@ -1834,13 +1834,13 @@
   (symbol (lib_id "74xx:74HC14") (at 124.46 52.07 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0386952d-3e84-48cd-b560-bc24ce79e375)
-    (property "Reference" "U?" (at 124.46 43.18 0)
+    (property "Reference" "U18" (at 124.46 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC14" (at 124.46 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 124.46 52.07 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 124.46 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14" (at 124.46 52.07 0)
@@ -1863,7 +1863,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 2)
+          (reference "U18") (unit 2)
         )
       )
     )
@@ -1872,13 +1872,13 @@
   (symbol (lib_id "74xx:74HC14") (at 124.46 80.01 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 041ec404-aa39-4010-ad42-8ef586a170a3)
-    (property "Reference" "U?" (at 124.46 71.12 0)
+    (property "Reference" "U18" (at 124.46 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC14" (at 124.46 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 124.46 80.01 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 124.46 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14" (at 124.46 80.01 0)
@@ -1901,7 +1901,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 4)
+          (reference "U18") (unit 4)
         )
       )
     )
@@ -1910,13 +1910,13 @@
   (symbol (lib_id "Device:R") (at 240.03 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1452be80-d40b-4bb6-acb9-dacb0818715a)
-    (property "Reference" "R?" (at 240.03 126.8222 90)
+    (property "Reference" "R29" (at 240.03 126.8222 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330" (at 240.03 129.1336 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 240.03 133.858 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 240.03 133.858 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 132.08 0)
@@ -1927,7 +1927,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "R?") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -1936,13 +1936,13 @@
   (symbol (lib_id "74xx:74HC14") (at 124.46 66.04 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 239dfc36-4b42-42e5-812b-e0dca01f01f4)
-    (property "Reference" "U?" (at 124.46 57.15 0)
+    (property "Reference" "U18" (at 124.46 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC14" (at 124.46 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 124.46 66.04 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 124.46 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14" (at 124.46 66.04 0)
@@ -1965,7 +1965,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 3)
+          (reference "U18") (unit 3)
         )
       )
     )
@@ -1974,13 +1974,13 @@
   (symbol (lib_id "Device:R") (at 209.55 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2580b50f-7e1c-43c3-887f-b2e46b737a70)
-    (property "Reference" "R?" (at 209.55 134.4422 90)
+    (property "Reference" "R26" (at 209.55 134.4422 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 209.55 136.7536 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 209.55 141.478 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 209.55 141.478 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 209.55 139.7 0)
@@ -1991,7 +1991,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "R?") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -2025,13 +2025,13 @@
   (symbol (lib_id "74xx:74HC14") (at 124.46 93.98 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3cb88817-b345-47b4-b6ed-ed5550d9cac2)
-    (property "Reference" "U?" (at 124.46 85.09 0)
+    (property "Reference" "U18" (at 124.46 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC14" (at 124.46 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 124.46 93.98 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 124.46 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14" (at 124.46 93.98 0)
@@ -2054,7 +2054,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 5)
+          (reference "U18") (unit 5)
         )
       )
     )
@@ -2063,13 +2063,13 @@
   (symbol (lib_id "74xGxx:74LVC1G06") (at 72.39 167.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3da93561-a7a2-49d9-8428-8ccf7f83dc97)
-    (property "Reference" "U?" (at 77.47 161.29 0)
+    (property "Reference" "U17" (at 77.47 161.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC1G06" (at 77.47 163.83 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 72.39 167.64 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" (at 72.39 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 72.39 167.64 0)
@@ -2082,7 +2082,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 1)
+          (reference "U17") (unit 1)
         )
       )
     )
@@ -2116,13 +2116,13 @@
   (symbol (lib_id "74xx:74LS06") (at 67.31 130.81 0) (unit 7)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fcbd861-4d5b-474f-986f-14fd77c97bf6)
-    (property "Reference" "U?" (at 73.66 129.54 0)
+    (property "Reference" "U16" (at 73.66 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LVC06" (at 73.66 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 67.31 130.81 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 67.31 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06" (at 67.31 130.81 0)
@@ -2145,7 +2145,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 7)
+          (reference "U16") (unit 7)
         )
       )
     )
@@ -2154,13 +2154,13 @@
   (symbol (lib_id "74xx:74LS06") (at 67.31 93.98 0) (unit 5)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 613ba5ef-3e15-402f-b511-6144d5775e54)
-    (property "Reference" "U?" (at 67.31 85.09 0)
+    (property "Reference" "U16" (at 67.31 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC06" (at 67.31 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 67.31 93.98 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 67.31 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06" (at 67.31 93.98 0)
@@ -2183,7 +2183,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 5)
+          (reference "U16") (unit 5)
         )
       )
     )
@@ -2192,7 +2192,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x17_Odd_Even") (at 198.12 57.15 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63a0602f-e1dd-4cac-9a00-1f55747287e8)
-    (property "Reference" "J?" (at 196.85 31.3182 0)
+    (property "Reference" "J8" (at 196.85 31.3182 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "FDD" (at 196.85 33.6296 0)
@@ -2241,7 +2241,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "J?") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -2250,7 +2250,7 @@
   (symbol (lib_id "power:GND") (at 207.01 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6dea31d1-f7f3-4cf9-b754-c97da19d27ed)
-    (property "Reference" "#PWR?" (at 207.01 88.9 0)
+    (property "Reference" "#PWR0171" (at 207.01 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 207.137 86.9442 0)
@@ -2266,7 +2266,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0171") (unit 1)
         )
       )
     )
@@ -2275,13 +2275,13 @@
   (symbol (lib_id "74xx:74LS06") (at 67.31 52.07 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6e9b9c0c-5bf3-495d-badc-5b6408546700)
-    (property "Reference" "U?" (at 67.31 43.18 0)
+    (property "Reference" "U16" (at 67.31 43.18 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC06" (at 67.31 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 67.31 52.07 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 67.31 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06" (at 67.31 52.07 0)
@@ -2304,7 +2304,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 2)
+          (reference "U16") (unit 2)
         )
       )
     )
@@ -2313,13 +2313,13 @@
   (symbol (lib_id "74xx:74LS06") (at 67.31 66.04 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7deb626a-9864-4f3a-a637-acd8b53f53c1)
-    (property "Reference" "U?" (at 67.31 57.15 0)
+    (property "Reference" "U16" (at 67.31 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC06" (at 67.31 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 67.31 66.04 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 67.31 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06" (at 67.31 66.04 0)
@@ -2342,7 +2342,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 3)
+          (reference "U16") (unit 3)
         )
       )
     )
@@ -2379,13 +2379,13 @@
   (symbol (lib_id "74xx:74HC14") (at 124.46 107.95 0) (unit 6)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a21ad96-5914-42f9-8eaa-fc2329b035fc)
-    (property "Reference" "U?" (at 124.46 99.06 0)
+    (property "Reference" "U18" (at 124.46 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC14" (at 124.46 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 124.46 107.95 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 124.46 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14" (at 124.46 107.95 0)
@@ -2408,7 +2408,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 6)
+          (reference "U18") (unit 6)
         )
       )
     )
@@ -2445,13 +2445,13 @@
   (symbol (lib_id "74xx:74LS06") (at 67.31 80.01 0) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99e36a47-aeab-47bb-80a4-22eb6d5510ed)
-    (property "Reference" "U?" (at 67.31 71.12 0)
+    (property "Reference" "U16" (at 67.31 71.12 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC06" (at 67.31 73.66 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 67.31 80.01 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 67.31 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06" (at 67.31 80.01 0)
@@ -2474,7 +2474,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 4)
+          (reference "U16") (unit 4)
         )
       )
     )
@@ -2483,13 +2483,13 @@
   (symbol (lib_id "Device:R") (at 240.03 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c756dca-b729-4cde-b1f2-07049fc5817e)
-    (property "Reference" "R?" (at 240.03 142.0622 90)
+    (property "Reference" "R31" (at 240.03 142.0622 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330" (at 240.03 144.3736 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 240.03 149.098 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 240.03 149.098 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 147.32 0)
@@ -2500,7 +2500,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "R?") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -2509,13 +2509,13 @@
   (symbol (lib_id "Device:R") (at 209.55 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c779cfb-5b5a-461c-9d4a-19e488ffebf1)
-    (property "Reference" "R?" (at 210.82 111.76 90)
+    (property "Reference" "R23" (at 210.82 111.76 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 210.82 114.0714 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 209.55 118.618 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 209.55 118.618 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 209.55 116.84 0)
@@ -2526,7 +2526,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "R?") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -2535,13 +2535,13 @@
   (symbol (lib_id "74xx:74HC14") (at 124.46 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0f8e518-9bc5-4403-960d-b467da20770d)
-    (property "Reference" "U?" (at 124.46 29.21 0)
+    (property "Reference" "U18" (at 124.46 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC14" (at 124.46 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 124.46 38.1 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 124.46 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14" (at 124.46 38.1 0)
@@ -2564,7 +2564,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 1)
+          (reference "U18") (unit 1)
         )
       )
     )
@@ -2573,13 +2573,13 @@
   (symbol (lib_id "74xx:74LS06") (at 67.31 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1c35870-92c0-4b09-88f2-6e74e7da5eab)
-    (property "Reference" "U?" (at 67.31 29.21 0)
+    (property "Reference" "U16" (at 67.31 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC06" (at 67.31 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 67.31 38.1 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 67.31 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06" (at 67.31 38.1 0)
@@ -2602,7 +2602,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 1)
+          (reference "U16") (unit 1)
         )
       )
     )
@@ -2611,13 +2611,13 @@
   (symbol (lib_id "Device:R") (at 209.55 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b325ff41-4c27-4d9c-b60c-5fd4483ce214)
-    (property "Reference" "R?" (at 209.55 119.2022 90)
+    (property "Reference" "R24" (at 209.55 119.2022 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 209.55 121.5136 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 209.55 126.238 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 209.55 126.238 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 209.55 124.46 0)
@@ -2628,7 +2628,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "R?") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -2637,13 +2637,13 @@
   (symbol (lib_id "Device:R") (at 240.03 139.7 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b821c47f-a2fd-47fa-9e52-cb80a784b378)
-    (property "Reference" "R?" (at 240.03 134.4422 90)
+    (property "Reference" "R30" (at 240.03 134.4422 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330" (at 240.03 136.7536 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 240.03 141.478 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 240.03 141.478 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 139.7 0)
@@ -2654,7 +2654,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "R?") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -2663,13 +2663,13 @@
   (symbol (lib_id "Device:R") (at 240.03 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b99a736a-2f55-46a1-b5f9-9c53b435e440)
-    (property "Reference" "R?" (at 240.03 111.5822 90)
+    (property "Reference" "R27" (at 240.03 111.5822 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330" (at 240.03 113.8936 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 240.03 118.618 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 240.03 118.618 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 116.84 0)
@@ -2680,7 +2680,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "R?") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -2689,7 +2689,7 @@
   (symbol (lib_id "power:VCC") (at 234.95 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c1ac5a0d-536c-4883-8bdf-95107b88b035)
-    (property "Reference" "#PWR?" (at 234.95 120.65 0)
+    (property "Reference" "#PWR0173" (at 234.95 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 235.331 112.4458 0)
@@ -2705,7 +2705,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0173") (unit 1)
         )
       )
     )
@@ -2742,7 +2742,7 @@
   (symbol (lib_id "power:VCC") (at 214.63 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c67e588a-1e20-48cd-bcab-127bdf860e3c)
-    (property "Reference" "#PWR?" (at 214.63 120.65 0)
+    (property "Reference" "#PWR0172" (at 214.63 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 215.011 112.4458 0)
@@ -2758,7 +2758,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0172") (unit 1)
         )
       )
     )
@@ -2792,13 +2792,13 @@
   (symbol (lib_id "74xx:74HC14") (at 124.46 130.81 0) (unit 7)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d75fe443-9e78-4f11-ba71-e112072105af)
-    (property "Reference" "U?" (at 130.81 129.54 0)
+    (property "Reference" "U18" (at 130.81 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LVC14" (at 130.81 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 124.46 130.81 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 124.46 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14" (at 124.46 130.81 0)
@@ -2821,7 +2821,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 7)
+          (reference "U18") (unit 7)
         )
       )
     )
@@ -2830,13 +2830,13 @@
   (symbol (lib_id "Device:R") (at 209.55 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3fa87ed-d3c5-4d03-88d6-c38ea1e70240)
-    (property "Reference" "R?" (at 209.55 126.8222 90)
+    (property "Reference" "R25" (at 209.55 126.8222 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 209.55 129.1336 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 209.55 133.858 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 209.55 133.858 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 209.55 132.08 0)
@@ -2847,7 +2847,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "R?") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -2856,13 +2856,13 @@
   (symbol (lib_id "Device:R") (at 240.03 154.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9e1a243-148b-4561-945f-283bc07e8c47)
-    (property "Reference" "R?" (at 240.03 149.6822 90)
+    (property "Reference" "R32" (at 240.03 149.6822 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330" (at 240.03 151.9936 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 240.03 156.718 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 240.03 156.718 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 154.94 0)
@@ -2873,7 +2873,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "R?") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -2882,13 +2882,13 @@
   (symbol (lib_id "Device:R") (at 240.03 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4d152e6-6c09-4f59-86b3-ccee104f8769)
-    (property "Reference" "R?" (at 240.03 119.2022 90)
+    (property "Reference" "R28" (at 240.03 119.2022 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "330" (at 240.03 121.5136 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 240.03 126.238 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 240.03 126.238 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 240.03 124.46 0)
@@ -2899,7 +2899,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "R?") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -2908,13 +2908,13 @@
   (symbol (lib_id "74xx:74LS06") (at 67.31 107.95 0) (unit 6)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc0c908e-cc74-47ad-9ffe-90a95f89f931)
-    (property "Reference" "U?" (at 67.31 99.06 0)
+    (property "Reference" "U16" (at 67.31 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC06" (at 67.31 101.6 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 67.31 107.95 0)
+    (property "Footprint" "Package_SO:SO-16_5.3x10.2mm_P1.27mm" (at 67.31 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS06" (at 67.31 107.95 0)
@@ -2937,7 +2937,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
-          (reference "U?") (unit 6)
+          (reference "U16") (unit 6)
         )
       )
     )

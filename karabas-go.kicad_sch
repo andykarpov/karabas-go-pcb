@@ -830,7 +830,7 @@
   (symbol (lib_id "power:GND") (at 120.65 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 13b2259c-a5b3-466c-9ed2-840b0c467518)
-    (property "Reference" "#PWR?" (at 120.65 177.8 0)
+    (property "Reference" "#PWR0159" (at 120.65 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.777 175.8442 0)
@@ -846,7 +846,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -855,7 +855,7 @@
   (symbol (lib_id "power:GND") (at 102.87 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2675628e-e71d-4ebc-8ac8-35ad90973eb9)
-    (property "Reference" "#PWR?" (at 102.87 193.04 0)
+    (property "Reference" "#PWR0158" (at 102.87 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.997 191.0842 0)
@@ -871,7 +871,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
     )
@@ -880,7 +880,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 156.21 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e0dd637-ae3b-4cb6-845f-005dd5afc456)
-    (property "Reference" "H?" (at 158.75 182.9816 0)
+    (property "Reference" "H8" (at 158.75 182.9816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 158.75 185.293 0)
@@ -896,7 +896,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "H?") (unit 1)
+          (reference "H8") (unit 1)
         )
       )
     )
@@ -905,7 +905,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 138.43 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3251d73a-b694-482b-8a9d-e3ce5589378b)
-    (property "Reference" "H?" (at 140.97 167.7416 0)
+    (property "Reference" "H5" (at 140.97 167.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 140.97 170.053 0)
@@ -921,7 +921,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "H?") (unit 1)
+          (reference "H5") (unit 1)
         )
       )
     )
@@ -930,7 +930,7 @@
   (symbol (lib_id "power:GND") (at 156.21 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ab8e764-74d3-4740-8ccd-6cfbeaecdb2f)
-    (property "Reference" "#PWR?" (at 156.21 193.04 0)
+    (property "Reference" "#PWR0164" (at 156.21 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.337 191.0842 0)
@@ -946,7 +946,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -955,7 +955,7 @@
   (symbol (lib_id "power:GND") (at 102.87 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e653eca-a374-4533-96c3-e1dfba169949)
-    (property "Reference" "#PWR?" (at 102.87 177.8 0)
+    (property "Reference" "#PWR0157" (at 102.87 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.997 175.8442 0)
@@ -971,7 +971,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
       )
     )
@@ -980,7 +980,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 102.87 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6517de66-bc55-4391-a265-05dd9981d87b)
-    (property "Reference" "H?" (at 105.41 182.9816 0)
+    (property "Reference" "H2" (at 105.41 182.9816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 105.41 185.293 0)
@@ -996,7 +996,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "H?") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -1005,7 +1005,7 @@
   (symbol (lib_id "power:GND") (at 138.43 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6727ff73-5351-4400-a346-af6ebeb5e6ec)
-    (property "Reference" "#PWR?" (at 138.43 177.8 0)
+    (property "Reference" "#PWR0161" (at 138.43 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.557 175.8442 0)
@@ -1021,7 +1021,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
@@ -1030,7 +1030,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 120.65 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70e9c491-32ea-4da2-9c67-46f2351c78fc)
-    (property "Reference" "H?" (at 123.19 182.9816 0)
+    (property "Reference" "H4" (at 123.19 182.9816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 123.19 185.293 0)
@@ -1046,7 +1046,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "H?") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -1055,7 +1055,7 @@
   (symbol (lib_id "power:GND") (at 156.21 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e052781-751d-4a28-9976-7c30b815d2e9)
-    (property "Reference" "#PWR?" (at 156.21 177.8 0)
+    (property "Reference" "#PWR0163" (at 156.21 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.337 175.8442 0)
@@ -1071,7 +1071,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
       )
     )
@@ -1080,7 +1080,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 120.65 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9472d345-065a-4feb-b4fd-0f4d692b974f)
-    (property "Reference" "H?" (at 123.19 167.7416 0)
+    (property "Reference" "H3" (at 123.19 167.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 123.19 170.053 0)
@@ -1096,7 +1096,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "H?") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -1105,7 +1105,7 @@
   (symbol (lib_id "power:GND") (at 138.43 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98c7ceba-2500-443c-b9b3-89ad761a4ca0)
-    (property "Reference" "#PWR?" (at 138.43 193.04 0)
+    (property "Reference" "#PWR0162" (at 138.43 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.557 191.0842 0)
@@ -1121,7 +1121,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -1130,7 +1130,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 102.87 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3b5319d-c769-40ab-ba69-3fe22d4d3ab1)
-    (property "Reference" "H?" (at 105.41 167.7416 0)
+    (property "Reference" "H1" (at 105.41 167.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 105.41 170.053 0)
@@ -1146,7 +1146,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "H?") (unit 1)
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -1155,7 +1155,7 @@
   (symbol (lib_id "power:GND") (at 120.65 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f410c704-66dc-4998-abe8-f5d351a250d3)
-    (property "Reference" "#PWR?" (at 120.65 193.04 0)
+    (property "Reference" "#PWR0160" (at 120.65 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.777 191.0842 0)
@@ -1171,7 +1171,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -1180,7 +1180,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 156.21 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa4269d1-3522-459b-a74e-25eb15945305)
-    (property "Reference" "H?" (at 158.75 167.7416 0)
+    (property "Reference" "H7" (at 158.75 167.7416 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 158.75 170.053 0)
@@ -1196,7 +1196,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "H?") (unit 1)
+          (reference "H7") (unit 1)
         )
       )
     )
@@ -1205,7 +1205,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 138.43 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fdf97d46-85ae-485d-bd16-e51083b93238)
-    (property "Reference" "H?" (at 140.97 182.9816 0)
+    (property "Reference" "H6" (at 140.97 182.9816 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 140.97 185.293 0)
@@ -1221,7 +1221,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8"
-          (reference "H?") (unit 1)
+          (reference "H6") (unit 1)
         )
       )
     )

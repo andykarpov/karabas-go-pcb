@@ -3510,7 +3510,7 @@
     (uuid c48b0f5b-2d79-4d24-8a7f-a200e8ca413f)
   )
   (text "TODO:\n- подумать, где еще забыл подтяжки...\n- i2c ? reset ? cs spi ?\n- перепиновать для удобства + посмотреть по даташитам аппаратный spi, i2c"
-    (at 180.34 176.53 0)
+    (at 181.61 177.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c714df71-7622-4acd-afa7-371953ed774b)
   )
@@ -4324,7 +4324,7 @@
   (symbol (lib_id "retro:74hc597") (at 209.55 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a2175e7-152b-4b32-8120-247f5ba3b2b7)
-    (property "Reference" "U?" (at 218.44 19.05 0)
+    (property "Reference" "U7" (at 218.44 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HC597" (at 215.9 21.59 0)
@@ -4355,7 +4355,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "U?") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -4389,7 +4389,7 @@
   (symbol (lib_id "Connector:DB9_Female_MountingHoles") (at 171.45 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1117d54c-f44a-4797-8c16-9c1d7565bdec)
-    (property "Reference" "J?" (at 176.022 30.4292 0)
+    (property "Reference" "J2" (at 176.022 30.4292 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Joy R" (at 176.022 32.7406 0)
@@ -4414,7 +4414,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "J?") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -4448,7 +4448,7 @@
   (symbol (lib_id "Memory_EEPROM:24AA02-OT") (at 247.65 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ac3cad6-1290-457e-90da-d5a85aa6cdba)
-    (property "Reference" "U?" (at 249.8441 46.99 0)
+    (property "Reference" "U9" (at 249.8441 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "24AA08" (at 249.8441 49.53 0)
@@ -4468,7 +4468,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "U?") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -4552,13 +4552,13 @@
   (symbol (lib_id "Device:C") (at 62.23 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e6d20e4-ec25-4abb-ab90-7029fd162baf)
-    (property "Reference" "C?" (at 66.04 24.13 0)
+    (property "Reference" "C8" (at 66.04 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 66.04 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 63.1952 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 63.1952 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 62.23 25.4 0)
@@ -4569,7 +4569,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -4578,13 +4578,13 @@
   (symbol (lib_id "Device:C") (at 29.21 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f561e52-7b7a-413a-b0ef-7918198a76d8)
-    (property "Reference" "C?" (at 33.02 43.18 0)
+    (property "Reference" "C5" (at 33.02 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 33.02 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 30.1752 48.26 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 30.1752 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 29.21 44.45 0)
@@ -4595,7 +4595,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4632,7 +4632,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 33.02 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 249f4e85-424d-437e-a9ec-8af84027bee8)
-    (property "Reference" "BTN?" (at 33.02 166.751 0)
+    (property "Reference" "BTN1" (at 33.02 166.751 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RP Boot" (at 33.02 169.0624 0)
@@ -4649,7 +4649,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "BTN?") (unit 1)
+          (reference "BTN1") (unit 1)
         )
       )
     )
@@ -4658,7 +4658,7 @@
   (symbol (lib_id "power:GND") (at 120.65 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2619d5b4-1db7-46cf-a67b-4d5f4ab94aaf)
-    (property "Reference" "#PWR?" (at 120.65 171.45 0)
+    (property "Reference" "#PWR0165" (at 120.65 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 120.777 169.4942 0)
@@ -4674,7 +4674,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
@@ -4683,7 +4683,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 33.02 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 284db350-3a1d-4739-a55c-fa9b30305b22)
-    (property "Reference" "BTN?" (at 33.02 176.911 0)
+    (property "Reference" "BTN2" (at 33.02 176.911 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RP Reset" (at 33.02 179.2224 0)
@@ -4700,7 +4700,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "BTN?") (unit 1)
+          (reference "BTN2") (unit 1)
         )
       )
     )
@@ -4709,7 +4709,7 @@
   (symbol (lib_id "Interface_USB:FE1.1s") (at 231.14 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28900b3b-d56a-4352-ae0e-248c43f85b36)
-    (property "Reference" "U?" (at 233.3341 152.4 0)
+    (property "Reference" "U8" (at 233.3341 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "FE1.1s" (at 233.3341 154.94 0)
@@ -4752,7 +4752,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "U?") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -4761,13 +4761,13 @@
   (symbol (lib_id "Device:R") (at 205.74 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29d59ae0-8412-47e7-996e-578b9a918f46)
-    (property "Reference" "R?" (at 203.2 149.86 90)
+    (property "Reference" "R8" (at 203.2 149.86 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2k7" (at 207.01 149.86 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 205.74 149.098 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 205.74 149.098 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 147.32 0)
@@ -4778,7 +4778,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "R?") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4787,13 +4787,13 @@
   (symbol (lib_id "Device:C") (at 83.82 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d2ba54a-8aba-498a-80af-f6107c4512d2)
-    (property "Reference" "C?" (at 87.63 24.13 0)
+    (property "Reference" "C10" (at 87.63 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 87.63 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 84.7852 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 84.7852 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 83.82 25.4 0)
@@ -4804,7 +4804,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4838,7 +4838,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 115.57 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b2a3d5d-5230-4d9a-9874-660087c77d66)
-    (property "Reference" "BTN?" (at 115.57 156.591 0)
+    (property "Reference" "BTN4" (at 115.57 156.591 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Reset" (at 115.57 158.9024 0)
@@ -4855,7 +4855,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "BTN?") (unit 1)
+          (reference "BTN4") (unit 1)
         )
       )
     )
@@ -4864,13 +4864,13 @@
   (symbol (lib_id "Device:R") (at 140.97 160.02 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bcb58f0-8fa8-44d4-86cf-7c9211287441)
-    (property "Reference" "R?" (at 140.97 154.7622 90)
+    (property "Reference" "R6" (at 140.97 154.7622 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470" (at 140.97 157.0736 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 140.97 161.798 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 140.97 161.798 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 140.97 160.02 0)
@@ -4881,7 +4881,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "R?") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4910,7 +4910,7 @@
           (reference "C?") (unit 1)
         )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -4944,13 +4944,13 @@
   (symbol (lib_id "Device:C") (at 250.19 24.13 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4cddce33-0a2b-4d97-bc73-ff694a0413de)
-    (property "Reference" "C?" (at 250.19 16.51 90)
+    (property "Reference" "C22" (at 250.19 16.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 250.19 19.05 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 246.38 25.0952 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 246.38 25.0952 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 250.19 24.13 0)
@@ -4961,7 +4961,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -4970,13 +4970,13 @@
   (symbol (lib_id "Device:C") (at 26.67 88.9 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d091ef5-2bf8-4744-809a-12370b43defc)
-    (property "Reference" "C?" (at 26.67 81.28 90)
+    (property "Reference" "C3" (at 26.67 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22pF" (at 26.67 83.82 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 22.86 89.8652 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 22.86 89.8652 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 26.67 88.9 0)
@@ -4987,7 +4987,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -5021,7 +5021,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 115.57 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e85159c-b5c8-41e0-a3c7-dd3e21e7c05d)
-    (property "Reference" "BTN?" (at 115.57 146.431 0)
+    (property "Reference" "BTN3" (at 115.57 146.431 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Magic" (at 115.57 148.7424 0)
@@ -5038,7 +5038,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "BTN?") (unit 1)
+          (reference "BTN3") (unit 1)
         )
       )
     )
@@ -5047,13 +5047,13 @@
   (symbol (lib_id "Device:C") (at 50.8 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fae99f4-8f5c-4514-8884-1add0c9d632b)
-    (property "Reference" "C?" (at 54.61 24.13 0)
+    (property "Reference" "C7" (at 54.61 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 54.61 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 51.7652 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 51.7652 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 50.8 25.4 0)
@@ -5064,7 +5064,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -5073,7 +5073,7 @@
   (symbol (lib_id "MCU_RaspberryPi_RP2040:RP2040") (at 82.55 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5019fbe6-f029-45ad-bdca-c37c4fa5d617)
-    (property "Reference" "U?" (at 104.14 39.37 0)
+    (property "Reference" "U4" (at 104.14 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RP2040" (at 104.14 41.91 0)
@@ -5145,7 +5145,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "U?") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -5179,13 +5179,13 @@
   (symbol (lib_id "Device:R_Pack04") (at 185.42 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 53bf5283-d08d-4e80-a71b-309ed0e572dc)
-    (property "Reference" "RN?" (at 187.96 158.75 0)
+    (property "Reference" "RN2" (at 187.96 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 187.96 161.29 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 192.405 151.13 90)
+    (property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603" (at 192.405 151.13 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 185.42 151.13 0)
@@ -5202,7 +5202,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "RN?") (unit 1)
+          (reference "RN2") (unit 1)
         )
       )
     )
@@ -5236,13 +5236,13 @@
   (symbol (lib_id "Device:R") (at 44.45 99.06 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58e9ce9e-3135-490f-8d29-a73bc2ee921c)
-    (property "Reference" "R?" (at 41.91 101.6 90)
+    (property "Reference" "R2" (at 41.91 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 45.72 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 44.45 100.838 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 44.45 100.838 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 44.45 99.06 0)
@@ -5253,7 +5253,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "R?") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -5262,13 +5262,13 @@
   (symbol (lib_id "Device:R_Pack04") (at 227.33 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5a8d1ecd-ecad-44d4-adee-83f7391ae3dc)
-    (property "Reference" "RN?" (at 227.33 55.88 0)
+    (property "Reference" "RN3" (at 227.33 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 227.33 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 234.315 48.26 90)
+    (property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603" (at 234.315 48.26 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 227.33 48.26 0)
@@ -5285,7 +5285,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "RN?") (unit 1)
+          (reference "RN3") (unit 1)
         )
       )
     )
@@ -5294,13 +5294,13 @@
   (symbol (lib_id "Device:C") (at 88.9 167.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ae7eca4-c892-4b01-8e19-3b74e8d23057)
-    (property "Reference" "C?" (at 87.63 160.02 0)
+    (property "Reference" "C11" (at 87.63 160.02 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 86.36 162.56 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 87.9348 163.83 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 87.9348 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 88.9 167.64 0)
@@ -5311,7 +5311,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -5345,7 +5345,7 @@
   (symbol (lib_id "Connector:DB9_Female_MountingHoles") (at 171.45 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d0fe15a-dbd7-4d91-a894-d88ce2765e3a)
-    (property "Reference" "J?" (at 176.022 64.7192 0)
+    (property "Reference" "J3" (at 176.022 64.7192 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Joy L" (at 176.022 67.0306 0)
@@ -5370,7 +5370,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "J?") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -5429,7 +5429,7 @@
   (symbol (lib_id "Device:Battery_Cell") (at 275.59 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e1b3bc1-50d6-4777-be49-583c8fa52c07)
-    (property "Reference" "BT?" (at 276.098 21.463 90)
+    (property "Reference" "BT1" (at 276.098 21.463 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3V" (at 280.67 21.59 90)
@@ -5446,7 +5446,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "BT?") (unit 1)
+          (reference "BT1") (unit 1)
         )
       )
     )
@@ -5455,7 +5455,7 @@
   (symbol (lib_id "Memory_Flash:W25Q128JVS") (at 74.93 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6013a03a-733f-46f0-84da-01c071eda15a)
-    (property "Reference" "U?" (at 80.01 187.96 0)
+    (property "Reference" "U3" (at 80.01 187.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "W25Q128JVS" (at 80.01 190.5 0)
@@ -5478,7 +5478,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "U?") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -5532,7 +5532,7 @@
           (reference "C?") (unit 1)
         )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -5541,13 +5541,13 @@
   (symbol (lib_id "Device:C") (at 19.05 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 678aa662-1e68-40ff-8fae-8a98882ed4a2)
-    (property "Reference" "C?" (at 22.86 43.18 0)
+    (property "Reference" "C2" (at 22.86 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 22.86 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 20.0152 48.26 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 20.0152 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 19.05 44.45 0)
@@ -5558,7 +5558,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -5567,13 +5567,13 @@
   (symbol (lib_id "Device:R") (at 140.97 151.13 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6809d8ba-065c-4b39-ad4e-cced416e3ee1)
-    (property "Reference" "R?" (at 140.97 145.8722 90)
+    (property "Reference" "R5" (at 140.97 145.8722 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470" (at 140.97 148.1836 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 140.97 152.908 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 140.97 152.908 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 140.97 151.13 0)
@@ -5584,7 +5584,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "R?") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -5593,13 +5593,13 @@
   (symbol (lib_id "Device:C") (at 72.39 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 69096e23-9e03-4c62-bcc3-07359194f6bd)
-    (property "Reference" "C?" (at 76.2 24.13 0)
+    (property "Reference" "C9" (at 76.2 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 76.2 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 73.3552 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 73.3552 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.39 25.4 0)
@@ -5610,7 +5610,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -5619,7 +5619,7 @@
   (symbol (lib_id "power:VCC") (at 161.29 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 695e7e26-307e-4ff9-97c4-177d40bb404c)
-    (property "Reference" "#PWR?" (at 165.1 74.93 0)
+    (property "Reference" "#PWR0166" (at 165.1 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (at 156.8958 74.549 0)
@@ -5635,7 +5635,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0166") (unit 1)
         )
       )
     )
@@ -5644,7 +5644,7 @@
   (symbol (lib_id "Interface_Expansion:PCA9536D") (at 128.27 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6bebaa62-4dcc-4485-89d1-083f6cbf4c45)
-    (property "Reference" "U?" (at 130.4641 170.18 0)
+    (property "Reference" "U5" (at 130.4641 170.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PCA9536D" (at 130.4641 172.72 0)
@@ -5667,7 +5667,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "U?") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -5751,13 +5751,13 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 21.59 149.86 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76e59d92-077c-4821-ab89-888d9772c080)
-    (property "Reference" "J?" (at 19.05 148.59 0)
+    (property "Reference" "J1" (at 19.05 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SWD" (at 19.05 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 21.59 149.86 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 21.59 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 21.59 149.86 0)
@@ -5769,7 +5769,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "J?") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -5828,7 +5828,7 @@
   (symbol (lib_id "Device:Crystal_GND24") (at 203.2 138.43 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ac8d735-1a85-4c76-83f9-8a058d325083)
-    (property "Reference" "Y?" (at 205.74 129.54 90)
+    (property "Reference" "Y2" (at 205.74 129.54 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12MHz" (at 207.01 132.08 90)
@@ -5847,7 +5847,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "Y?") (unit 1)
+          (reference "Y2") (unit 1)
         )
       )
     )
@@ -5881,13 +5881,13 @@
   (symbol (lib_id "Device:R") (at 140.97 168.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e02d050-e5dd-48ad-be86-f6501316618b)
-    (property "Reference" "R?" (at 140.97 163.6522 90)
+    (property "Reference" "R7" (at 140.97 163.6522 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "470" (at 140.97 165.9636 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 140.97 170.688 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 140.97 170.688 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 140.97 168.91 0)
@@ -5898,7 +5898,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "R?") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -5907,13 +5907,13 @@
   (symbol (lib_id "Device:C") (at 219.71 87.63 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8058f7f6-ace8-44eb-88ef-a844a7f5c092)
-    (property "Reference" "C?" (at 219.71 80.01 90)
+    (property "Reference" "C19" (at 219.71 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 219.71 82.55 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 215.9 88.5952 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 215.9 88.5952 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 219.71 87.63 0)
@@ -5924,7 +5924,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -5958,13 +5958,13 @@
   (symbol (lib_id "Device:R_Pack04") (at 185.42 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 88da96a4-11fc-4698-a350-55afba89e4b1)
-    (property "Reference" "RN?" (at 185.42 125.73 0)
+    (property "Reference" "RN1" (at 185.42 125.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 185.42 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 192.405 118.11 90)
+    (property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603" (at 192.405 118.11 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 185.42 118.11 0)
@@ -5981,7 +5981,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "RN?") (unit 1)
+          (reference "RN1") (unit 1)
         )
       )
     )
@@ -5990,7 +5990,7 @@
   (symbol (lib_id "Connector:USB_A_Stacked") (at 270.51 140.97 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e7cee07-27df-4449-a497-0ec94084824e)
-    (property "Reference" "J?" (at 270.51 123.19 0)
+    (property "Reference" "J5" (at 270.51 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2x USB A" (at 270.51 125.73 0)
@@ -6014,7 +6014,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "J?") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -6023,13 +6023,13 @@
   (symbol (lib_id "Device:R") (at 58.42 165.1 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 902438a1-30d4-4ce9-95ae-ccea002c02e3)
-    (property "Reference" "R?" (at 55.88 162.56 90)
+    (property "Reference" "R4" (at 55.88 162.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 59.69 162.56 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 58.42 163.322 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 58.42 163.322 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 58.42 165.1 0)
@@ -6040,7 +6040,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "R?") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -6074,7 +6074,7 @@
   (symbol (lib_id "power:GND") (at 279.4 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9845c518-b446-45d4-af64-8ad20d39afb0)
-    (property "Reference" "#PWR?" (at 279.4 31.75 0)
+    (property "Reference" "#PWR0168" (at 279.4 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 279.527 29.7942 0)
@@ -6090,7 +6090,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0168") (unit 1)
         )
       )
     )
@@ -6124,13 +6124,13 @@
   (symbol (lib_id "Device:R") (at 44.45 111.76 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b3afe2f-5592-4479-8f4d-e30bd68d7510)
-    (property "Reference" "R?" (at 44.45 106.68 90)
+    (property "Reference" "R3" (at 44.45 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k" (at 44.45 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 44.45 109.982 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 44.45 109.982 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 44.45 111.76 0)
@@ -6141,7 +6141,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "R?") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -6225,7 +6225,7 @@
   (symbol (lib_id "Device:Crystal_GND24") (at 33.02 95.25 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fc98ad5-8848-435f-8345-e922b6a3c309)
-    (property "Reference" "Y?" (at 35.56 86.36 90)
+    (property "Reference" "Y1" (at 35.56 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12MHz" (at 36.83 88.9 90)
@@ -6244,7 +6244,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "Y?") (unit 1)
+          (reference "Y1") (unit 1)
         )
       )
     )
@@ -6253,13 +6253,13 @@
   (symbol (lib_id "Device:C") (at 118.11 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a04a73a8-4158-4408-a7eb-3df61b94a50e)
-    (property "Reference" "C?" (at 121.92 24.13 0)
+    (property "Reference" "C14" (at 121.92 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 121.92 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 119.0752 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 119.0752 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 25.4 0)
@@ -6270,7 +6270,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -6279,7 +6279,7 @@
   (symbol (lib_id "Device:LED") (at 152.4 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a176c559-69b6-4db6-a155-e37e40b73556)
-    (property "Reference" "D?" (at 152.2222 154.5082 0)
+    (property "Reference" "D2" (at 152.2222 154.5082 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Activitty" (at 152.2222 156.8196 0)
@@ -6296,7 +6296,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "D?") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -6305,7 +6305,7 @@
   (symbol (lib_id "Device:LED") (at 152.4 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7c3eaeb-dfe8-47db-9df2-9ff820295a7d)
-    (property "Reference" "D?" (at 152.2222 163.3982 0)
+    (property "Reference" "D3" (at 152.2222 163.3982 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Power" (at 152.2222 165.7096 0)
@@ -6322,7 +6322,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "D?") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -6331,13 +6331,13 @@
   (symbol (lib_id "Device:C") (at 129.54 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aebf7102-2379-4352-bea7-83acbb044319)
-    (property "Reference" "C?" (at 133.35 24.13 0)
+    (property "Reference" "C15" (at 133.35 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 133.35 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 130.5052 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 130.5052 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 129.54 25.4 0)
@@ -6348,7 +6348,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -6382,7 +6382,7 @@
   (symbol (lib_id "Regulator_Linear:TLV73333PDBV") (at 36.83 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b37fe16c-62c9-4271-8e7c-00a56a5b21a5)
-    (property "Reference" "U?" (at 36.83 15.24 0)
+    (property "Reference" "U2" (at 36.83 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "APA2112K-3.3" (at 36.83 17.78 0)
@@ -6402,7 +6402,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "U?") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -6436,7 +6436,7 @@
   (symbol (lib_id "retro:74hc597") (at 165.1 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5c2b7e3-961f-4c9f-981d-9e45a5b9a66d)
-    (property "Reference" "U?" (at 173.99 88.9 0)
+    (property "Reference" "U6" (at 173.99 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74HC597" (at 171.45 91.44 0)
@@ -6467,7 +6467,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "U?") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -6526,13 +6526,13 @@
   (symbol (lib_id "Device:C") (at 95.25 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b85cefcb-58a9-44bd-8167-a89a5d9bf319)
-    (property "Reference" "C?" (at 99.06 24.13 0)
+    (property "Reference" "C12" (at 99.06 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 99.06 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 96.2152 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 96.2152 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 25.4 0)
@@ -6543,7 +6543,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -6702,13 +6702,13 @@
   (symbol (lib_id "Device:C") (at 26.67 104.14 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c99d0bd9-8c26-4709-a559-0bcfa29d1a73)
-    (property "Reference" "C?" (at 26.67 96.52 90)
+    (property "Reference" "C4" (at 26.67 96.52 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22pF" (at 26.67 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 22.86 105.1052 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 22.86 105.1052 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 26.67 104.14 0)
@@ -6719,7 +6719,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -6728,7 +6728,7 @@
   (symbol (lib_id "Timer_RTC:DS3231M") (at 261.62 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce845fab-6385-4e11-bf96-575b35409f12)
-    (property "Reference" "U?" (at 264.16 44.45 0)
+    (property "Reference" "U10" (at 264.16 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DS3231M" (at 264.16 46.99 0)
@@ -6759,7 +6759,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "U?") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -6793,13 +6793,13 @@
   (symbol (lib_id "Device:C") (at 106.68 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4932e0d-68da-40cb-92a6-a20983fc7fbf)
-    (property "Reference" "C?" (at 110.49 24.13 0)
+    (property "Reference" "C13" (at 110.49 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 110.49 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 107.6452 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 107.6452 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 106.68 25.4 0)
@@ -6810,7 +6810,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -6819,13 +6819,13 @@
   (symbol (lib_id "Device:C") (at 40.64 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d778c9aa-f99b-44bd-9bfc-8e2bd213edb5)
-    (property "Reference" "C?" (at 44.45 43.18 0)
+    (property "Reference" "C6" (at 44.45 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 44.45 45.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 41.6052 48.26 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 41.6052 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 44.45 0)
@@ -6836,7 +6836,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -6870,7 +6870,7 @@
   (symbol (lib_id "Connector:USB_A_Stacked") (at 270.51 104.14 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da4fd62c-398f-4231-bb28-9883bb29adad)
-    (property "Reference" "J?" (at 270.51 86.36 0)
+    (property "Reference" "J4" (at 270.51 86.36 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2x USB A" (at 270.51 88.9 0)
@@ -6894,7 +6894,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "J?") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -7053,13 +7053,13 @@
   (symbol (lib_id "Device:C") (at 19.05 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eee320fc-d651-430e-af15-bd8b0a4d4ece)
-    (property "Reference" "C?" (at 22.86 24.13 0)
+    (property "Reference" "C1" (at 22.86 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 22.86 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 20.0152 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 20.0152 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 19.05 25.4 0)
@@ -7070,7 +7070,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -7079,7 +7079,7 @@
   (symbol (lib_id "Device:LED") (at 152.4 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid efa6b0e5-ad38-4d13-b82d-d49af6cc704b)
-    (property "Reference" "D?" (at 152.2222 145.6182 0)
+    (property "Reference" "D1" (at 152.2222 145.6182 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Keyboard" (at 152.2222 147.9296 0)
@@ -7096,7 +7096,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "D?") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -7130,13 +7130,13 @@
   (symbol (lib_id "Device:C") (at 204.47 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2d5317f-9ba2-4005-80b9-a0854b58b31e)
-    (property "Reference" "C?" (at 204.47 85.09 90)
+    (property "Reference" "C17" (at 204.47 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 204.47 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 200.66 93.6752 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 200.66 93.6752 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 204.47 92.71 0)
@@ -7147,7 +7147,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -7156,13 +7156,13 @@
   (symbol (lib_id "Device:R") (at 27.94 167.64 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5a5ac2d-33f2-47ee-9910-624ea1f14ff1)
-    (property "Reference" "R?" (at 22.6822 167.64 90)
+    (property "Reference" "R1" (at 22.6822 167.64 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 24.9936 167.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (at 29.718 167.64 90)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 29.718 167.64 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 27.94 167.64 0)
@@ -7173,7 +7173,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "R?") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -7207,7 +7207,7 @@
   (symbol (lib_id "power:GND") (at 261.62 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f63873e2-1dad-4a31-8495-91627592762e)
-    (property "Reference" "#PWR?" (at 261.62 52.07 0)
+    (property "Reference" "#PWR0167" (at 261.62 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.747 50.1142 0)
@@ -7223,7 +7223,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0167") (unit 1)
         )
       )
     )
@@ -7257,13 +7257,13 @@
   (symbol (lib_id "Device:C") (at 140.97 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8679ccb-51fb-4252-8290-eeabfc09cf42)
-    (property "Reference" "C?" (at 144.78 24.13 0)
+    (property "Reference" "C16" (at 144.78 24.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 144.78 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 141.9352 29.21 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 141.9352 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 140.97 25.4 0)
@@ -7274,7 +7274,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -7358,13 +7358,13 @@
   (symbol (lib_id "Device:C") (at 245.11 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff4e94ca-9593-4247-ae8d-d65473262dba)
-    (property "Reference" "C?" (at 245.11 85.09 90)
+    (property "Reference" "C21" (at 245.11 85.09 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 245.11 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 241.3 93.6752 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 241.3 93.6752 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 245.11 92.71 0)
@@ -7375,7 +7375,7 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C?") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
