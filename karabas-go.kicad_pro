@@ -524,16 +524,8 @@
       "Storage"
     ],
     [
-      "81b893ec-ee9d-4a37-a143-1ac4f6fd0d4a",
-      "Memory"
-    ],
-    [
       "34157a6c-fe5b-4b27-a58b-efdaac9599d0",
-      "Tape, Sound, Wi-Fi"
-    ],
-    [
-      "d380b73f-1851-4bf2-8217-e60a324c1141",
-      "Power"
+      "Interfaces"
     ]
   ],
   "text_variables": {}
