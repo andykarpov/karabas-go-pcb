@@ -3931,7 +3931,7 @@
     (property "Value" "12MHz" (at 45.72 41.91 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Crystal:Crystal_SMD_7050-4Pin_7.0x5.0mm" (at 41.91 46.99 0)
+    (property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4Pin_7.0x5.0mm" (at 41.91 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 41.91 46.99 0)
