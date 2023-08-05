@@ -2802,7 +2802,7 @@
     (property "Reference" "U27" (at 247.65 85.2932 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "AMS1117-3.3" (at 247.65 87.6046 0)
+    (property "Value" "LM1117MP-3.3" (at 247.65 87.6046 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (at 247.65 86.36 0)
