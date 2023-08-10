@@ -4110,7 +4110,7 @@
     (property "Value" "ADV7125KSTZ" (at 234.315 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_QFP:LQFP-48-1EP_7x7mm_P0.5mm_EP3.6x3.6mm_ThermalVias" (at 232.41 107.95 0)
+    (property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.1x5.1mm_ThermalVias" (at 232.41 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7125.pdf" (at 233.68 110.49 0)

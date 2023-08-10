@@ -1563,7 +1563,6 @@
   )
 
   (no_connect (at 262.89 90.17) (uuid 41843c7d-b8d2-4158-8dd3-6270327f4d75))
-  (no_connect (at 246.38 58.42) (uuid 928b5b1b-283c-44c4-8789-8bba83b42ecf))
   (no_connect (at 250.19 92.71) (uuid e76debdf-407c-4551-975d-f66dc4eafa86))
   (no_connect (at 262.89 92.71) (uuid fa34afb3-d592-4d51-b2f0-fec7c5f9bca6))
 
@@ -1686,6 +1685,10 @@
   (wire (pts (xy 36.83 52.07) (xy 39.37 52.07))
     (stroke (width 0) (type default))
     (uuid 3d1b86d4-6618-4de0-bb62-627026f90e73)
+  )
+  (wire (pts (xy 246.38 58.42) (xy 250.19 58.42))
+    (stroke (width 0) (type default))
+    (uuid 3e5913ef-5066-4f50-8ff6-a40aacb4af17)
   )
   (wire (pts (xy 36.83 64.77) (xy 39.37 64.77))
     (stroke (width 0) (type default))
@@ -3343,6 +3346,31 @@
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
           (reference "TP1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 250.19 58.42 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 358c8d13-755b-4e9c-b88b-cd3eb3ce6e93)
+    (property "Reference" "TP8" (at 257.81 58.42 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TestPoint" (at 253.492 55.88 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (at 250.19 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 250.19 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6ba4cb61-9b49-4846-a908-821a30969c69))
+    (instances
+      (project "karabas-go"
+        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
+          (reference "TP8") (unit 1)
         )
       )
     )
