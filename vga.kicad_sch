@@ -4107,7 +4107,7 @@
     (property "Reference" "U15" (at 234.315 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "ADV7125KSTZ" (at 234.315 21.59 0)
+    (property "Value" "ADV7125BCPZ170" (at 234.315 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.1x5.1mm_ThermalVias" (at 232.41 107.95 0)
