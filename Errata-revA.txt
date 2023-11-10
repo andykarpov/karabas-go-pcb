@@ -1,0 +1,17 @@
+ERRATA revA:
+
+1) RP2040 pin 44 should be tied on +3.3VP.
+
+Hotfix: add a solder joint between pins 43 and 44
+
+2) MCU SPI signals should be RENAMED as following:
+GPIO22 - MCU_CS to MCU_SCK
+GPIO21 - MCU_MISO to MCU_CS
+GPIO20 - MCU_MOSI to MCU_MISO
+GPIO23 - MCU_SCK to MCU_MOSI
+
+Hotfix: rename signal names on the software side
+
+3) Possible missing pull-ups on the SD_DO signals
+
+Hotfix: check if it works without those pullups at all
