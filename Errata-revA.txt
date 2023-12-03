@@ -15,3 +15,8 @@ Hotfix: rename signal names on the software side
 3) Possible missing pull-ups on the SD_DO signals
 
 Hotfix: check if it works without those pullups at all
+
+4) C27 on ADV725 pin 35 (COMP) wrongly connected to GND
+
+Hotfix: connect C27 to VCC33
+
