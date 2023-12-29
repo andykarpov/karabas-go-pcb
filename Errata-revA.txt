@@ -20,3 +20,8 @@ Hotfix: check if it works without those pullups at all
 
 Hotfix: connect C27 to VCC33
 
+4) C38 should be 2.2uF instead of 2.2nF
+
+5) Buffers direction (U13, U14) is wrong.
+Pins 1,24 should be tied to GND
+
