@@ -2226,7 +2226,7 @@
   (symbol (lib_id "Device:C") (at 72.39 157.48 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ce1c6f6-b04b-4152-8f4c-aa90a0214651)
-    (property "Reference" "C63" (at 76.2 151.13 90)
+    (property "Reference" "C77" (at 76.2 151.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 76.2 153.67 90)
@@ -2242,15 +2242,6 @@
     (pin "2" (uuid 1a01636b-8db4-44b7-83c0-c08c15689c64))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C63") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "C68") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/ba614d64-5a02-4c7a-993a-280e504b1e08"
-          (reference "C73") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
           (reference "C77") (unit 1)
         )
@@ -2458,7 +2449,7 @@
   (symbol (lib_id "power:GND") (at 115.57 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82d123e6-2fec-42cb-868e-c6854d0c2b09)
-    (property "Reference" "#PWR?" (at 115.57 73.66 0)
+    (property "Reference" "#PWR089" (at 115.57 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 115.697 71.7042 0)
@@ -2473,9 +2464,6 @@
     (pin "1" (uuid 74c4f1ee-ea77-4ae5-b788-4555c90df590))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
           (reference "#PWR089") (unit 1)
         )
@@ -2524,7 +2512,7 @@
   (symbol (lib_id "Device:C") (at 72.39 118.11 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8eafd831-08ad-4748-a0f2-6842de055f03)
-    (property "Reference" "C63" (at 76.2 111.76 90)
+    (property "Reference" "C75" (at 76.2 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 76.2 114.3 90)
@@ -2540,15 +2528,6 @@
     (pin "2" (uuid ae956b82-b9d7-4194-b63e-a66af90dcbb6))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C63") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "C68") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/ba614d64-5a02-4c7a-993a-280e504b1e08"
-          (reference "C73") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
           (reference "C75") (unit 1)
         )
@@ -2559,7 +2538,7 @@
   (symbol (lib_id "vcc33:VCC3_3") (at 124.46 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9991e71e-f2cb-4d94-ba1e-f47b42942488)
-    (property "Reference" "#PWR?" (at 124.46 121.92 0)
+    (property "Reference" "#PWR0108" (at 124.46 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC3_3" (at 123.19 114.3 0)
@@ -2574,9 +2553,6 @@
     (pin "1" (uuid fa6501a6-6eeb-45d7-8f4c-a3067fb6b214))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/c9d820c1-ed97-46d5-b9d2-9cd3c5bb0e50"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
           (reference "#PWR0108") (unit 1)
         )
@@ -2753,7 +2729,7 @@
   (symbol (lib_id "power:GND") (at 76.2 157.48 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a94003e4-4213-48ae-9928-d98121c513e5)
-    (property "Reference" "#PWR0206" (at 82.55 157.48 0)
+    (property "Reference" "#PWR0220" (at 82.55 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.5942 157.607 0)
@@ -2768,15 +2744,6 @@
     (pin "1" (uuid de5c48e6-c0f4-4023-9355-4432cc335e49))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "#PWR0206") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "#PWR0211") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/ba614d64-5a02-4c7a-993a-280e504b1e08"
-          (reference "#PWR0216") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
           (reference "#PWR0220") (unit 1)
         )
@@ -2890,7 +2857,7 @@
   (symbol (lib_id "vcc33:VCC3_3") (at 67.31 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c4b7889b-952c-48ec-81b4-8576a2db8f60)
-    (property "Reference" "#PWR?" (at 67.31 161.29 0)
+    (property "Reference" "#PWR0113" (at 67.31 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC3_3" (at 66.04 153.67 0)
@@ -2905,9 +2872,6 @@
     (pin "1" (uuid 95eb7bf2-a417-47c9-ad75-9c320f394286))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/c9d820c1-ed97-46d5-b9d2-9cd3c5bb0e50"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
           (reference "#PWR0113") (unit 1)
         )
@@ -2968,7 +2932,7 @@
   (symbol (lib_id "power:GND") (at 76.2 118.11 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd2a147c-35a5-44cb-be22-d5b743721974)
-    (property "Reference" "#PWR0206" (at 82.55 118.11 0)
+    (property "Reference" "#PWR0218" (at 82.55 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.5942 118.237 0)
@@ -2983,15 +2947,6 @@
     (pin "1" (uuid 9ac1fafb-809e-42b8-84bc-0a409db6cbc5))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "#PWR0206") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "#PWR0211") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/ba614d64-5a02-4c7a-993a-280e504b1e08"
-          (reference "#PWR0216") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
           (reference "#PWR0218") (unit 1)
         )
@@ -3002,7 +2957,7 @@
   (symbol (lib_id "power:GND") (at 133.35 118.11 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd4adbca-0b8b-47e4-be9c-8c50067ee6d5)
-    (property "Reference" "#PWR0206" (at 139.7 118.11 0)
+    (property "Reference" "#PWR0219" (at 139.7 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 137.7442 118.237 0)
@@ -3017,15 +2972,6 @@
     (pin "1" (uuid 2a011b41-89fa-4e48-a6c9-f29cfe16d6d2))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "#PWR0206") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "#PWR0211") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/ba614d64-5a02-4c7a-993a-280e504b1e08"
-          (reference "#PWR0216") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
           (reference "#PWR0219") (unit 1)
         )
@@ -3074,7 +3020,7 @@
   (symbol (lib_id "Device:C") (at 129.54 118.11 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc9cb027-66c7-4545-b505-ef201f79e8a3)
-    (property "Reference" "C63" (at 133.35 111.76 90)
+    (property "Reference" "C76" (at 133.35 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 133.35 114.3 90)
@@ -3090,15 +3036,6 @@
     (pin "2" (uuid 08a1d5b9-6754-4d27-ab64-d12286ac5ce5))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C63") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "C68") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/ba614d64-5a02-4c7a-993a-280e504b1e08"
-          (reference "C73") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
           (reference "C76") (unit 1)
         )
@@ -3225,7 +3162,7 @@
   (symbol (lib_id "vcc33:VCC3_3") (at 67.31 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff5341d7-8cf2-4f9a-9069-d8e364c0fcdf)
-    (property "Reference" "#PWR?" (at 67.31 121.92 0)
+    (property "Reference" "#PWR0109" (at 67.31 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC3_3" (at 66.04 114.3 0)
@@ -3240,9 +3177,6 @@
     (pin "1" (uuid 7b710342-66ac-467f-8c98-dbd8c235c7af))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/c9d820c1-ed97-46d5-b9d2-9cd3c5bb0e50"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/e0b308ed-195d-4a8f-a156-7440239b6813"
           (reference "#PWR0109") (unit 1)
         )

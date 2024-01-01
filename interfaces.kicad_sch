@@ -3541,7 +3541,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 242.57 134.62 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 54d785ce-0182-4bff-972d-78a579f81ee8)
-    (property "Reference" "TP4" (at 250.19 134.62 90)
+    (property "Reference" "TP19" (at 250.19 134.62 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 245.872 132.08 90)
@@ -3556,12 +3556,6 @@
     (pin "1" (uuid 490eee7b-2977-4da5-88fe-55f0a80407a1))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "TP4") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/8156360b-2e6b-4180-bc5a-5f304755f359"
-          (reference "TP7") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/34157a6c-fe5b-4b27-a58b-efdaac9599d0"
           (reference "TP19") (unit 1)
         )
@@ -3724,7 +3718,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 242.57 127 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 613fb663-7be1-4893-a6a6-a2d8a52729a6)
-    (property "Reference" "TP4" (at 250.19 127 90)
+    (property "Reference" "TP17" (at 250.19 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 245.872 124.46 90)
@@ -3739,12 +3733,6 @@
     (pin "1" (uuid 89d4322b-c8bb-4705-b382-d01d67533a86))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "TP4") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/8156360b-2e6b-4180-bc5a-5f304755f359"
-          (reference "TP7") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/34157a6c-fe5b-4b27-a58b-efdaac9599d0"
           (reference "TP17") (unit 1)
         )
@@ -4778,7 +4766,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 242.57 124.46 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6b84312-0e05-4d9e-8ebe-c568aa3f95ae)
-    (property "Reference" "TP4" (at 250.19 124.46 90)
+    (property "Reference" "TP16" (at 250.19 124.46 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 245.872 121.92 90)
@@ -4793,12 +4781,6 @@
     (pin "1" (uuid f669ad11-4034-4e0d-939e-b9b13b103342))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "TP4") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/8156360b-2e6b-4180-bc5a-5f304755f359"
-          (reference "TP7") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/34157a6c-fe5b-4b27-a58b-efdaac9599d0"
           (reference "TP16") (unit 1)
         )
@@ -5065,7 +5047,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 242.57 129.54 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0d66272-cda7-4d20-964f-b50f4ccb6081)
-    (property "Reference" "TP4" (at 250.19 129.54 90)
+    (property "Reference" "TP18" (at 250.19 129.54 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TestPoint" (at 245.872 127 90)
@@ -5080,12 +5062,6 @@
     (pin "1" (uuid 7f0c2ab1-611f-4f46-b9df-f6b0379e9d86))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "TP4") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/8156360b-2e6b-4180-bc5a-5f304755f359"
-          (reference "TP7") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/34157a6c-fe5b-4b27-a58b-efdaac9599d0"
           (reference "TP18") (unit 1)
         )
@@ -5146,7 +5122,7 @@
   (symbol (lib_id "Device:C") (at 204.47 27.94 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dc3b74ba-1897-4885-8534-218f23b867be)
-    (property "Reference" "C63" (at 200.66 21.59 90)
+    (property "Reference" "C87" (at 200.66 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 200.66 24.13 90)
@@ -5162,18 +5138,6 @@
     (pin "2" (uuid 66355e07-5be4-4f4e-927b-3faa349ce576))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "C63") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "C68") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/ba614d64-5a02-4c7a-993a-280e504b1e08"
-          (reference "C73") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/c9d820c1-ed97-46d5-b9d2-9cd3c5bb0e50"
-          (reference "C78") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/34157a6c-fe5b-4b27-a58b-efdaac9599d0"
           (reference "C87") (unit 1)
         )
@@ -5341,7 +5305,7 @@
   (symbol (lib_id "power:GND") (at 200.66 27.94 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb5d2fc0-c518-40aa-b949-e81ccc1cf557)
-    (property "Reference" "#PWR0206" (at 194.31 27.94 0)
+    (property "Reference" "#PWR0230" (at 194.31 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.2658 28.067 0)
@@ -5356,18 +5320,6 @@
     (pin "1" (uuid 94349c0c-fbd9-4785-83fa-ea8bc926f9e8))
     (instances
       (project "karabas-go"
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/aeb25ef9-b705-4fe0-b117-b7f20e33e486"
-          (reference "#PWR0206") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/1680b5ee-aa42-4fdf-9b7e-2b7396a922a0"
-          (reference "#PWR0211") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/ba614d64-5a02-4c7a-993a-280e504b1e08"
-          (reference "#PWR0216") (unit 1)
-        )
-        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/c9d820c1-ed97-46d5-b9d2-9cd3c5bb0e50"
-          (reference "#PWR0221") (unit 1)
-        )
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8/34157a6c-fe5b-4b27-a58b-efdaac9599d0"
           (reference "#PWR0230") (unit 1)
         )
