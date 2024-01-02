@@ -1,4 +1,4 @@
-138227813937881
+139932013746298
 footprints
 ALTERA-QFP-145
 
@@ -370,6 +370,13 @@ CMS SOT
 0
 4
 4
+footprints
+SSOP-28_3.9x9.9mm_P0.635mm-long
+SSOP28: plastic shrink small outline package; 28 leads; body width 3.9 mm; lead pitch 0.635; (see http://cds.linear.com/docs/en/datasheet/38901fb.pdf)
+SSOP 0.635
+0
+28
+28
 footprints
 SW_DIP_SPSTx04_Piano_TAPE_MOD
 4x-dip-switch SPST CTS_Series194-4MSTN, Piano, row spacing 7.62 mm (300 mils), body size  (see https://www.ctscorp.com/wp-content/uploads/194-195.pdf)

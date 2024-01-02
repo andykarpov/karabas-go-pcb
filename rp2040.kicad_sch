@@ -4958,7 +4958,7 @@
     (property "Value" "FE1.1s" (at 233.3341 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SSOP-28_3.9x9.9mm_P0.635mm" (at 257.81 162.56 0)
+    (property "Footprint" "footprints:SSOP-28_3.9x9.9mm_P0.635mm-long" (at 257.81 162.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2991/FE1.1s+Data+Sheet+(Rev.+1.0).pdf" (at 231.14 124.46 0)
