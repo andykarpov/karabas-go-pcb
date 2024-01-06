@@ -78,8 +78,6 @@
         "malformed_courtyard|85339076|53855500|c28b6f70-2252-4df4-8693-13f8cfbc606c|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|86297000|46587611|c28b6f70-2252-4df4-8693-13f8cfbc606c|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|86297000|52887611|c28b6f70-2252-4df4-8693-13f8cfbc606c|00000000-0000-0000-0000-000000000000",
-        "starved_thermal|100440300|111887000|37e48c13-3330-43a7-bb16-cefd0377aa9e|451b0870-c34f-46c9-9624-f0881ba4cf0e|B.Cu",
-        "starved_thermal|100440300|115925600|37e48c13-3330-43a7-bb16-cefd0377aa9e|f042860b-79fb-424d-a5dd-de7110ac9093|B.Cu",
         "starved_thermal|105063000|44568000|37e48c13-3330-43a7-bb16-cefd0377aa9e|2d03a68a-17d7-408c-b660-d342edb9b129|B.Cu",
         "starved_thermal|125907800|95548600|37e48c13-3330-43a7-bb16-cefd0377aa9e|23bd7a4f-18d3-427b-b834-5f15121927b3|F.Cu",
         "starved_thermal|51387000|38849000|37e48c13-3330-43a7-bb16-cefd0377aa9e|4ef90888-e27d-49ce-be3f-38a336ab7a0b|F.Cu",
@@ -539,7 +537,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
