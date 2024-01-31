@@ -499,8 +499,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "karabas-go.step",
+      "vrml": "karabas-go.wrl"
     },
     "page_layout_descr_file": ""
   },
