@@ -4565,7 +4565,7 @@
     (property "Value" "Beeper" (at 155.0162 49.7586 0)
       (effects (font (size 1.143 1.143)) (justify left))
     )
-    (property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6" (at 151.13 40.64 0)
+    (property "Footprint" "footprints:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm_long" (at 151.13 40.64 0)
       (effects (font (size 0.508 0.508)) hide)
     )
     (property "Datasheet" "" (at 151.13 48.26 0)
