@@ -6,8 +6,8 @@
 
   (title_block
     (title "Karabas-Go")
-    (date "2024-02-08")
-    (rev "B1")
+    (date "2024-02-10")
+    (rev "B2")
   )
 
   (lib_symbols

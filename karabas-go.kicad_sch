@@ -6,8 +6,8 @@
 
   (title_block
     (title "Karabas-Go")
-    (date "2024-02-08")
-    (rev "B1")
+    (date "2024-02-10")
+    (rev "B2")
   )
 
   (lib_symbols
@@ -664,7 +664,7 @@
     (fill (type none))
     (uuid f8152f81-91b3-4cb7-b61c-369f0b62ccab)
   )
-  (rectangle (start 33.02 34.29) (end 87.63 148.59)
+  (rectangle (start 33.02 34.29) (end 87.63 170.18)
     (stroke (width 0) (type dash))
     (fill (type none))
     (uuid f9e4894a-5982-475e-8906-bdf28ba40c97)
@@ -1413,6 +1413,23 @@
     (instances
       (project "karabas-go"
         (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 49.53 149.86) (size 20.32 7.62) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 132 0 1.0000))
+    (uuid bb1a18e5-b8b5-4cee-a32d-2a86e9abaee7)
+    (property "Sheetname" "Audio" (at 49.53 149.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "audio.kicad_sch" (at 49.53 158.0646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "karabas-go"
+        (path "/3ea0d469-753b-4b31-8a3d-1341413bdcc8" (page "9"))
       )
     )
   )
