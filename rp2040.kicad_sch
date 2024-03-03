@@ -6,8 +6,8 @@
 
   (title_block
     (title "Karabas-Go")
-    (date "2024-02-16")
-    (rev "B2")
+    (date "2024-02-27")
+    (rev "B3")
   )
 
   (lib_symbols
@@ -6583,7 +6583,7 @@
     (property "Value" "2x USB A" (at 270.51 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked" (at 266.7 154.94 0)
+    (property "Footprint" "footprints:USB_A_Wuerth_61400826021_Horizontal_Stacked_oval" (at 266.7 154.94 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" " ~" (at 265.43 139.7 0)
@@ -7612,7 +7612,7 @@
     (property "Value" "2x USB A" (at 270.51 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_USB:USB_A_Wuerth_61400826021_Horizontal_Stacked" (at 266.7 118.11 0)
+    (property "Footprint" "footprints:USB_A_Wuerth_61400826021_Horizontal_Stacked_oval" (at 266.7 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" " ~" (at 265.43 102.87 0)
