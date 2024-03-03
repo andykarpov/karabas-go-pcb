@@ -2483,6 +2483,18 @@
     (uuid da7a5c8b-ca69-45e2-9b44-52d8ea6853c2)
   )
 
+  (image (at 199.39 173.99) (scale 4.22535)
+    (uuid a5ee0edb-4663-4102-8e70-57f8e8e18925)
+    (data
+      iVBORw0KGgoAAAANSUhEUgAAAHAAAAAgCAIAAABFDGvrAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
+      AArwAAAK8AFCrDSYAAAA8klEQVRoge2ZwQ6EMAhEZbP//8vjoRsPWtbSTBXtvItJiw2BCVI0AIvg
+      YeVxDKuZHa0TRr/4mcexz90OvI2vt5En589CCiWjgN5KtA5MaC+Fkvl9lE5TsXVRjUnbdV3tqR50
+      /mX+S6Fk3LbJo9rwE8l5fuNbqqF8wgottNesp58frblSKJlOhWardOPsoydLoWRMQxAuUigZBZSM
+      AkpGASWjgJLx+9Bq/wVs//V2G1Zbx4K6dZtzIwj1lQCi9lIoGV+hbn9aX4e7nhH66F53+VF03uXf
+      wWl97LhGSqFkplboHwF2j9OkUDKTKnTc/FQKJbMC/mlpPiKgQEgAAAAASUVORK5CYII=
+    )
+  )
+
   (text "Secondary FPGA-MCU bus" (at 179.07 140.97 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a640c636-6adc-4ec0-ad2e-352cb163eab8)

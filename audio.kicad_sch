@@ -539,6 +539,18 @@
     (uuid b3b3d8d1-7303-4cdd-8a86-7208bd066e4f)
   )
 
+  (image (at 199.39 173.99) (scale 4.22535)
+    (uuid c302bf0e-b30a-4ac3-a882-1fa0e5cadd24)
+    (data
+      iVBORw0KGgoAAAANSUhEUgAAAHAAAAAgCAIAAABFDGvrAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
+      AArwAAAK8AFCrDSYAAAA8klEQVRoge2ZwQ6EMAhEZbP//8vjoRsPWtbSTBXtvItJiw2BCVI0AIvg
+      YeVxDKuZHa0TRr/4mcexz90OvI2vt5En589CCiWjgN5KtA5MaC+Fkvl9lE5TsXVRjUnbdV3tqR50
+      /mX+S6Fk3LbJo9rwE8l5fuNbqqF8wgottNesp58frblSKJlOhWardOPsoydLoWRMQxAuUigZBZSM
+      AkpGASWjgJLx+9Bq/wVs//V2G1Zbx4K6dZtzIwj1lQCi9lIoGV+hbn9aX4e7nhH66F53+VF03uXf
+      wWl97LhGSqFkplboHwF2j9OkUDKTKnTc/FQKJbMC/mlpPiKgQEgAAAAASUVORK5CYII=
+    )
+  )
+
   (text "Audio Amp" (at 127 22.86 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 409c5d43-7a3f-4cc2-8f75-3df0dc9f2584)

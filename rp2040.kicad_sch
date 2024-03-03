@@ -3683,6 +3683,18 @@
     (uuid e36abc40-7f74-4739-88a2-02583e5a9650)
   )
 
+  (image (at 199.39 173.99) (scale 4.22535)
+    (uuid b56f3009-cddc-4e86-a111-cadddefa2bcb)
+    (data
+      iVBORw0KGgoAAAANSUhEUgAAAHAAAAAgCAIAAABFDGvrAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
+      AArwAAAK8AFCrDSYAAAA8klEQVRoge2ZwQ6EMAhEZbP//8vjoRsPWtbSTBXtvItJiw2BCVI0AIvg
+      YeVxDKuZHa0TRr/4mcexz90OvI2vt5En589CCiWjgN5KtA5MaC+Fkvl9lE5TsXVRjUnbdV3tqR50
+      /mX+S6Fk3LbJo9rwE8l5fuNbqqF8wgottNesp58frblSKJlOhWardOPsoydLoWRMQxAuUigZBZSM
+      AkpGASWjgJLx+9Bq/wVs//V2G1Zbx4K6dZtzIwj1lQCi9lIoGV+hbn9aX4e7nhH66F53+VF03uXf
+      wWl97LhGSqFkplboHwF2j9OkUDKTKnTc/FQKJbMC/mlpPiKgQEgAAAAASUVORK5CYII=
+    )
+  )
+
   (text "Conf Flash" (at 46.99 158.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2c6d363e-f3d4-44e4-a24e-9639353b7d44)

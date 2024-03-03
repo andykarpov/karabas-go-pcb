@@ -2814,6 +2814,18 @@
     (uuid d0330c98-1ac3-49cc-bf75-5e6eb773eba2)
   )
 
+  (image (at 199.39 173.99) (scale 4.22535)
+    (uuid 458335fd-32fb-4162-b51e-c2e81a00b55b)
+    (data
+      iVBORw0KGgoAAAANSUhEUgAAAHAAAAAgCAIAAABFDGvrAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
+      AArwAAAK8AFCrDSYAAAA8klEQVRoge2ZwQ6EMAhEZbP//8vjoRsPWtbSTBXtvItJiw2BCVI0AIvg
+      YeVxDKuZHa0TRr/4mcexz90OvI2vt5En589CCiWjgN5KtA5MaC+Fkvl9lE5TsXVRjUnbdV3tqR50
+      /mX+S6Fk3LbJo9rwE8l5fuNbqqF8wgottNesp58frblSKJlOhWardOPsoydLoWRMQxAuUigZBZSM
+      AkpGASWjgJLx+9Bq/wVs//V2G1Zbx4K6dZtzIwj1lQCi9lIoGV+hbn9aX4e7nhH66F53+VF03uXf
+      wWl97LhGSqFkplboHwF2j9OkUDKTKnTc/FQKJbMC/mlpPiKgQEgAAAAASUVORK5CYII=
+    )
+  )
+
   (text "MIDI Interconnection" (at 129.54 171.45 0)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4054477b-a22c-4681-aca0-0b6dcf48d623)

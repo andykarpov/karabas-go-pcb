@@ -2426,6 +2426,18 @@
     (uuid fdf96343-51b9-4d8c-8094-b3056359d817)
   )
 
+  (image (at 199.39 173.99) (scale 4.22535)
+    (uuid 7ce91005-0e74-42cf-9a3d-312a37c4fd8a)
+    (data
+      iVBORw0KGgoAAAANSUhEUgAAAHAAAAAgCAIAAABFDGvrAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
+      AArwAAAK8AFCrDSYAAAA8klEQVRoge2ZwQ6EMAhEZbP//8vjoRsPWtbSTBXtvItJiw2BCVI0AIvg
+      YeVxDKuZHa0TRr/4mcexz90OvI2vt5En589CCiWjgN5KtA5MaC+Fkvl9lE5TsXVRjUnbdV3tqR50
+      /mX+S6Fk3LbJo9rwE8l5fuNbqqF8wgottNesp58frblSKJlOhWardOPsoydLoWRMQxAuUigZBZSM
+      AkpGASWjgJLx+9Bq/wVs//V2G1Zbx4K6dZtzIwj1lQCi9lIoGV+hbn9aX4e7nhH66F53+VF03uXf
+      wWl97LhGSqFkplboHwF2j9OkUDKTKnTc/FQKJbMC/mlpPiKgQEgAAAAASUVORK5CYII=
+    )
+  )
+
   (text "FT Audio filter & mixer" (at 25.4 156.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2f77c6bc-8be0-4cce-a942-50b554c31db7)
