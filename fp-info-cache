@@ -1,4 +1,4 @@
-165552909055122
+167262511412471
 footprints
 ALTERA-QFP-145
 
@@ -188,6 +188,13 @@ diode
 0
 2
 2
+footprints
+LED_D5.0mm-4_RGB_tiny
+LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf
+LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED
+0
+4
+4
 footprints
 MAX9814_module
 

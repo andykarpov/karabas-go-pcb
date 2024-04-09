@@ -6,8 +6,8 @@
 
   (title_block
     (title "Karabas-Go")
-    (date "2024-02-27")
-    (rev "B3")
+    (date "2024-03-05")
+    (rev "B4")
   )
 
   (lib_symbols
@@ -555,6 +555,11 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 409c5d43-7a3f-4cc2-8f75-3df0dc9f2584)
   )
+  (text "U29 could be one of the following:\n- MC4558\n- LM358\n\nR87,R88 should be adjusted according to IC"
+    (at 81.28 111.76 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f9ea4364-44f2-4cee-ab9b-3bfd22987ca2)
+  )
 
   (global_label "AUDIO_L" (shape input) (at 113.03 48.26 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
@@ -630,7 +635,7 @@
     (property "Reference" "R88" (at 55.88 64.5922 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k*" (at 55.88 66.9036 90)
+    (property "Value" "3k3" (at 55.88 66.9036 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 55.88 71.628 90)
@@ -708,7 +713,7 @@
     (property "Reference" "U29" (at 53.34 27.94 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LM4558" (at 53.34 30.48 0)
+    (property "Value" "MC4558" (at 53.34 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (at 53.34 38.1 0)
@@ -740,7 +745,7 @@
     (property "Reference" "U29" (at 57.15 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LM4558" (at 57.15 104.14 0)
+    (property "Value" "MC4558" (at 57.15 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (at 58.42 102.87 0)
@@ -824,7 +829,7 @@
     (property "Reference" "R87" (at 55.88 41.7322 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "10k*" (at 55.88 44.0436 90)
+    (property "Value" "3k3" (at 55.88 44.0436 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 55.88 48.768 90)
@@ -1156,7 +1161,7 @@
     (property "Reference" "U29" (at 53.34 50.8 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LM4558" (at 53.34 53.34 0)
+    (property "Value" "MC4558" (at 53.34 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (at 53.34 60.96 0)

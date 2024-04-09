@@ -6,8 +6,8 @@
 
   (title_block
     (title "Karabas-Go")
-    (date "2024-02-27")
-    (rev "B3")
+    (date "2024-03-05")
+    (rev "B4")
   )
 
   (lib_symbols
@@ -3730,7 +3730,7 @@
     (property "Reference" "R63" (at 234.95 25.2222 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "470" (at 234.95 27.5336 90)
+    (property "Value" "10k" (at 234.95 27.5336 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 234.95 32.258 90)
@@ -4097,7 +4097,7 @@
     (property "Reference" "R64" (at 242.57 26.67 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "470" (at 242.57 28.9814 90)
+    (property "Value" "10k" (at 242.57 28.9814 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 242.57 34.798 90)

@@ -6,8 +6,8 @@
 
   (title_block
     (title "Karabas-Go")
-    (date "2024-02-27")
-    (rev "B3")
+    (date "2024-03-05")
+    (rev "B4")
   )
 
   (lib_symbols
@@ -4530,7 +4530,7 @@
     (property "Value" "EXT" (at 168.91 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_FFC-FPC:Hirose_FH12-8S-0.5SH_1x08-1MP_P0.50mm_Horizontal" (at 171.45 139.7 0)
+    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" (at 171.45 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 171.45 139.7 0)
